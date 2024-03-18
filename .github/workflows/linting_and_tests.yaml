@@ -1,0 +1,32 @@
+name: Linting and Tests 
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: "*"
+
+jobs:
+  linting-and-tests:
+    runs-on: ubuntu-latest
+    env:
+      ENVIRONMENT_STAGE: production
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+        cache: 'pip' # caching pip dependencies
+    - name: Install backend dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: List of installed packages
+      run: pip list
+    - name: Run black
+      run: black --check .
+    - name: Run isort
+      run: isort --profile black --check-only .
+    - name: Run the tests
+      run: |
+        pytest tests/* -v
