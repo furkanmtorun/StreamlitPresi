@@ -1,8 +1,13 @@
 # 💈 Streamlit Presi
 
 - This repository contains the example Streamlit project to be presented in my talk at [PyData Prague meetup](https://pydata.cz/).
-- ["Become a Data Storyteller with Streamlit!"](https://www.meetup.com/pydata-prague/events/297072175/) | Prague, 20th Nov 2023 | [Furkan M. Torun](https://furkanmtorun.github.io/)
-- Video link will be provided later.
+
+## Talk
+- ["Become a Data Storyteller with Streamlit!"](https://www.meetup.com/pydata-prague/events/297072175/) | [Furkan M. Torun](https://furkanmtorun.github.io/) | [PyData Prague, Prague, Czech Republic, 2023](https://pydata.cz/)
+  
+[![PyDataPrague-FurkanMTorun](http://img.youtube.com/vi/zi9KgTJjnjc/0.jpg)](http://www.youtube.com/watch?v=zi9KgTJjnjc "Become a Data Storyteller with Streamlit! - Furkan M. Torun")
+
+
 
 ## 💊 Installation & Running
 
