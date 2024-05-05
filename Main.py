@@ -20,7 +20,8 @@ st.divider()
 
 image = Image.open("./assets/prague_city.jpg")
 st.image(
-    image, caption="Pictures are awesome like Prague.",
+    image,
+    caption="Pictures are awesome like Prague.",
 )
 
 st.divider()

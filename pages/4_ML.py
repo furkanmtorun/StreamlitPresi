@@ -56,7 +56,11 @@ with st.form("Train model", clear_on_submit=False):
     )
     ml_selections["model_name"] = st.text_input("Model name", value="iris_xgb_model")
     ml_selections["test_size"] = st.slider(
-        "Test size", min_value=0.1, max_value=0.6, value=0.2, step=0.1,
+        "Test size",
+        min_value=0.1,
+        max_value=0.6,
+        value=0.2,
+        step=0.1,
     )
     train_model_button = st.form_submit_button("Train XGBoost model for Iris dataset")
 
@@ -70,9 +74,11 @@ with st.form("Train model", clear_on_submit=False):
             time.sleep(0.5)
             X_train, X_test, y_train, y_test = load_data(
                 test_size=ml_selections["test_size"],
-                random_state=ml_selections["random_state"]
-                if ml_selections["random_state"]
-                else 23,
+                random_state=(
+                    ml_selections["random_state"]
+                    if ml_selections["random_state"]
+                    else 23
+                ),
             )
             model_training_status.update(
                 label="Training the model", state="running", expanded=False

@@ -72,7 +72,11 @@ column_configuration = {
         "Gender", options=["male", "female", "other"]
     ),
     "age": st.column_config.NumberColumn(
-        "Age", min_value=0, max_value=120, format="%d years", help="The user's age",
+        "Age",
+        min_value=0,
+        max_value=120,
+        format="%d years",
+        help="The user's age",
     ),
     "activity": st.column_config.LineChartColumn(
         "Activity (1 year)",
@@ -92,7 +96,9 @@ column_configuration = {
         "Status", min_value=0, max_value=1, format="%.2f"
     ),
     "birthdate": st.column_config.DateColumn(
-        "Birthdate", help="The user's birthdate", min_value=date(1920, 1, 1),
+        "Birthdate",
+        help="The user's birthdate",
+        min_value=date(1920, 1, 1),
     ),
     "email": st.column_config.TextColumn(
         "Email",
@@ -113,7 +119,10 @@ def convert_df_to_csv(df):
 # Date editor
 st.subheader("Data editor")
 st.data_editor(
-    profile_df, column_config=column_configuration, hide_index=True, num_rows="dynamic",
+    profile_df,
+    column_config=column_configuration,
+    hide_index=True,
+    num_rows="dynamic",
 )
 st.download_button(
     label=":floppy_disk: Download data as CSV",

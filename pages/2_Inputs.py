@@ -35,7 +35,10 @@ if user_selections["build_state"] == "Stable":
     )
 elif user_selections["build_state"] == "Beta":
     user_selections["version"] = st.session_state.version = st.radio(
-        "Pick the version", ["v.1.2"], index=0, horizontal=True,
+        "Pick the version",
+        ["v.1.2"],
+        index=0,
+        horizontal=True,
     )
 
 
