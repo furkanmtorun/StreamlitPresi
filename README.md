@@ -6,7 +6,7 @@
 
 | Talk & Event | Where | When | Organizer | Link |
 |---|---|---|---|---|
-| ["Become a Data Storyteller with Streamlit!"](https://www.meetup.com/pydata-prague/events/297072175/) | 🇩🇪 Munich, DE   | May 21, 2024 | [PyMunich](https://www.meetup.com/pymunich/)  | [![PyMunich-FurkanMTorun](http://img.youtube.com/vi/9h9sRkm72WM/0.jpg)](http://www.youtube.com/watch?v=9h9sRkm72WM "Become a Data Storyteller with Streamlit! - Furkan M. Torun") |
+| ["Become a Data Storyteller with Streamlit!"](https://www.meetup.com/pymunich/events/299650733/) | 🇩🇪 Munich, DE   | May 21, 2024 | [PyMunich](https://www.meetup.com/pymunich/)  | [![PyMunich-FurkanMTorun](http://img.youtube.com/vi/9h9sRkm72WM/0.jpg)](http://www.youtube.com/watch?v=9h9sRkm72WM "Become a Data Storyteller with Streamlit! - Furkan M. Torun") |
 | ["Become a Data Storyteller with Streamlit!"](https://www.meetup.com/pydata-prague/events/297072175/) | 🇨🇿 Prague, CZ  | November 20, 2023 | [PyData Prague](https://pydata.cz/) | [![PyDataPrague-FurkanMTorun](http://img.youtube.com/vi/zi9KgTJjnjc/0.jpg)](http://www.youtube.com/watch?v=zi9KgTJjnjc "Become a Data Storyteller with Streamlit! - Furkan M. Torun") |
 
 
