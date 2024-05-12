@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Data Storyteller @furkanmtorun",
-    page_icon="./assets/prague.png",
+    page_icon="./assets/munich.jpg",
     layout="centered",
     initial_sidebar_state="auto",
     menu_items={
@@ -18,10 +18,10 @@ st.write("Our true mentor in life is science. - `Atatürk`")
 
 st.divider()
 
-image = Image.open("./assets/prague_city.jpg")
+image = Image.open("./assets/Munich.jpg")
 st.image(
     image,
-    caption="Pictures are awesome like Prague.",
+    caption="Pictures are awesome like Munich. (📌 Herzogstand)",
 )
 
 st.divider()

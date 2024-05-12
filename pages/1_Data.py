@@ -9,7 +9,7 @@ from faker import Faker
 
 st.set_page_config(
     page_title="Data | Become A Data Storyteller",
-    page_icon="./assets/prague.png",
+    page_icon="./assets/munich.jpg",
     layout="centered",
     initial_sidebar_state="auto",
     menu_items={
